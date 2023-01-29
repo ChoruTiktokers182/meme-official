@@ -58,3 +58,31 @@ module.exports.run = async function({api, event, args, utils, Users, Threads}) {
     }
 }
 ```
+There is another Command on discord 
+```
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag}!`);
+});
+
+client.on('message', message => {
+    if (message.content === '!meme') {
+        // Make the API call and handle the response as before
+        axios.get('https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme')
+            .then(res => {
+                // Use message.channel.send() instead of api.sendMessage()
+                message.channel.send(`Title: ${res.data.title}\nId: ${res.data.id}\ncreatedUtc: ${res.data.createdUtc}\nspoiler: ${res.data.spoiler}\nPost by: ${res.data.user}\nupvotes: ${res.data.upvotes}\nupvoteRatio: ${res.data.upvoteRatio}\nnsfw ${res.data.nsfw}\nscore: ${res.data.score}\n\napi: ${res.data.api}\nauthor: ${res.data.author}`, {
+                    files: [res.data.image]
+                });
+            })
+            .catch(err => {
+                console.log(err);
+                message.channel.send('Error: ' + err);
+            });
+    }
+});
+
+client.login('your-bot-token-goes-here');
+```
