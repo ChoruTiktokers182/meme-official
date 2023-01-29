@@ -5,6 +5,7 @@ https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme
 ```
 
 <img alt="Mozilla Add-on" src="https://img.shields.io/amo/rating/dustman?color=light&label=RATING%20RANDOM%20MEME">
+
 ```
 {
   author: 'Choru TikTokers',
