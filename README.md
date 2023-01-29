@@ -4,7 +4,8 @@ This is api in random meme
 https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme
 ```
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="20" role="img" aria-label="UNOFFICIAL: MEME"><title>UNOFFICIAL: MEME</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="122" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="79" height="20" fill="#555"/><rect x="79" width="43" height="20" fill="#97ca00"/><rect width="122" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="405" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="690">UNOFFICIAL</text><text x="405" y="140" transform="scale(.1)" fill="#fff" textLength="690">UNOFFICIAL</text><text aria-hidden="true" x="995" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="330">MEME</text><text x="995" y="140" transform="scale(.1)" fill="#fff" textLength="330">MEME</text></g></svg>
+https://img.shields.io/static/v1?label=<UNOFFICIAL>&message=<MEME>&color=<GREEN>
+
 ```
 {
   author: 'Choru TikTokers',
