@@ -3,7 +3,7 @@ This is api in random meme
 ```
 https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme
 ```
-
+https://img.shields.io/endpoint?color=green&label=1&logo=MEME&url=https%3A%2F%2Fimg.shields.io%2Fendpoint%3Furl%3D...%26style%3D...
 ```
 {
   author: 'Choru TikTokers',
