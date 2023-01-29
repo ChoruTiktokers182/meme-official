@@ -1,5 +1,6 @@
 # meme-official-
-```{
+```
+{
   author: 'Choru TikTokers',
   api: 'https://API-OFFICIAL-CHORU-TIKTOKERS.ohio-final-boss542.repl.co/meme',
   upvotes: '6925',
