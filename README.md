@@ -1,2 +1,1 @@
 # meme-official-
-[![DeepSource]
