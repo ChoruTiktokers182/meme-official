@@ -29,6 +29,9 @@ https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme
 
 I'll give you all a command in the miraiproject
 
+FREE FILE IN [REPLIT.COM](https://replit.com).
+HERE FILE [Vegito file](https://replit.com/@Ohio-Final-Boss542/Free-file?v=1).
+
 ```
 //Do not change the credit of the owner in the cmd because I will have trouble with that code
 const axios = require('axios');
