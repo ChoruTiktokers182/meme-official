@@ -3,7 +3,8 @@ This is api in random meme
 ```
 https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme
 ```
-https://img.shields.io/badge/<1>-<MEME>-<GREEN>
+
+https://img.shields.io/badge/UNOFFICIAL-MEME-green
 
 ```
 {
