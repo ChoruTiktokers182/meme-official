@@ -4,9 +4,9 @@ This is api in random meme
 
 
 ```
-https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme
+https://official-api-choru-tiktokers.ohio-final-boss542.repl.co/meme
 ```
-CLICK API THIS [MEME.COM](https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme).
+CLICK API THIS [MEME.COM](https://official-api-choru-tiktokers.ohio-final-boss542.repl.co/meme).
 
 
 <img alt="Mozilla Add-on" src="https://img.shields.io/amo/rating/dustman?color=light&label=RATING%20RANDOM%20MEME&logo=V">
@@ -53,7 +53,7 @@ module.exports.config = {
 module.exports.run = async function({api, event, args, utils, Users, Threads}) {
     try {
         let {threadID, senderID, messageID} = event;
-        const res = await axios.get(`https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme`);
+        const res = await axios.get(`https://official-api-choru-tiktokers.ohio-final-boss542.repl.co/meme`);
         console.log(res.data);
         var data = res.data;
         // check if data.image is defined before making request
@@ -87,7 +87,7 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '!meme') {
         // Make the API call and handle the response as before
-        axios.get('https://api-official-choru-tiktokers.ohio-final-boss542.repl.co/meme')
+        axios.get('https://official-api-choru-tiktokers.ohio-final-boss542.repl.co/meme')
             .then(res => {
                 // Use message.channel.send() instead of api.sendMessage()
                 message.channel.send(`Title: ${res.data.title}\nId: ${res.data.id}\ncreatedUtc: ${res.data.createdUtc}\nspoiler: ${res.data.spoiler}\nPost by: ${res.data.user}\nupvotes: ${res.data.upvotes}\nupvoteRatio: ${res.data.upvoteRatio}\nnsfw ${res.data.nsfw}\nscore: ${res.data.score}\n\napi: ${res.data.api}\nauthor: ${res.data.author}`, {
